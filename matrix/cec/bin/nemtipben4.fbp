@@ -1,0 +1,26 @@
+[Project]
+Version=3
+Api=fb (FreeBASIC),win (Windows)
+Description=ben4
+[Make]
+Recompile=0
+Module=Module Build,fbc -c
+Current=1
+1=Windows GUI,fbc -s gui
+2=Windows GUI (Debug),fbc -s gui -g
+[TabOrder]
+TabOrder=1,2,3,4
+[File]
+1=nemtipben4.bas
+2=nemtipben4.bi
+3=nemtipben4.rc
+4=themes\ppbusiness.bi
+[BreakPoint]
+4=
+1=
+2=
+[FileInfo]
+1=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
