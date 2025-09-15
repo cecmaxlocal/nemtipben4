@@ -12,6 +12,7 @@
         "Nums",
         "parselink",
         "Perldoc",
+        "Raku",
         "Wextra"
     ]
 }
